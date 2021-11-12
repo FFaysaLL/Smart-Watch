@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Smart-Watch</title>
+
+        <link rel="stylesheet" href="sw.css">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+          <img src="./time-clock-logo.jpg" alt="time-clock-logo">
+ 
+            </div>
+    
+            <div class="mnu">
+                <ul>
+                    <li><a href="./index.html">Analog</a></li>
+                    <li><a href="./dgtl.html">Digital</a></li>
+                    <li><a href="./sw.html">stop-watch</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <div id="stopwatch">
+            00:00:00
+        </div>
+
+        <ul id="buttons">
+            <li><button onclick="startTimer()">Start</button></li>
+            <li><button onclick="stopTimer()">Stop</button></li>
+
+            <li><button onclick="resetTimer()">Reset</button></li>
+        </ul>
+
+        <script src="sw.js"></script>
+    </body>
+</html>
