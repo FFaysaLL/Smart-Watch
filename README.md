@@ -1,2 +1,2 @@
 # Smart-Watch
-3-2 PROJECT
+https://ffaysall.github.io/Smart-Watch/
